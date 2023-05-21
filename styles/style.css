@@ -1,0 +1,126 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 10%;
+}
+
+main{
+    padding: 115px 39px 0px 29px;
+    position: relative;
+    right: 0%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main-info{
+  align-items: center;
+}
+
+#name, #position{
+  text-align: center;
+  display: block;
+}
+
+#name{
+  font-size: 48px;
+  color: #000;
+  line-height: 58px;
+  font-weight: 500;
+}
+#position{
+  font-size: 32px;
+  color: #045786;
+  line-height: 39px;
+  font-weight: 500;
+}
+
+#about{
+  align-items: center;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+.title{
+  background-color: #045786;
+  color: #fff;
+  padding: 4px 11px;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 600;
+  width: 70%;
+}
+
+.info{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  width: 70%;
+}
+
+.external-link{
+  display: block;
+  text-decoration: none;
+  color: #045786;
+}
+
+aside{
+  background-color: #045786;
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  padding-top: 26px;
+  padding-left: 20px;
+}
+
+aside > *{
+  color: #fff;
+}
+
+#image-container > img{
+  width: 85%;
+  border-radius: 60%;
+  margin-bottom: 10px;
+}
+
+.contact{
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 20px;
+  display: block;
+  color: #fff;
+}
+
+.contact > a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+
+#phone{
+  text-decoration: underline;
+}
+
+.skills{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+li{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+}
